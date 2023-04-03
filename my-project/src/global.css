@@ -1,0 +1,32 @@
+.styleCard{
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+width: 200px;
+}
+
+.styleImage{
+    max-width: 150px;
+    margin: auto;
+    padding: 15px;
+}
+
+@media only screen and (max-width:600px){
+    .styleImage{
+        max-width: 80px;
+        padding: 5px;
+    }
+    .styleCard{
+        width: 100px;
+    }
+}
+
+.styleworkCard{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    
+}
